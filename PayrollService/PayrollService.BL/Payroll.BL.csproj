@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="_Base\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Command.Query\Command.Query.csproj" />
+    <ProjectReference Include="..\Command.Request\Command.Request.csproj" />
+    <ProjectReference Include="..\Model.Validation\Model.Validation.csproj" />
+  </ItemGroup>
+
+</Project>
